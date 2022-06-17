@@ -24,9 +24,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/genutil"
 	genutiltypes "github.com/cosmos/cosmos-sdk/x/genutil/types"
 
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	msgfeetypes "github.com/provenance-io/provenance/x/msgfees/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
+	msgfeetypes "github.com/MonikaCat/provenance/x/msgfees/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 const (

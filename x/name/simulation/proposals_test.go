@@ -9,11 +9,11 @@ import (
 
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	simapp "github.com/provenance-io/provenance/app"
-	simappparams "github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/x/name/keeper"
-	"github.com/provenance-io/provenance/x/name/simulation"
-	"github.com/provenance-io/provenance/x/name/types"
+	simapp "github.com/MonikaCat/provenance/app"
+	simappparams "github.com/MonikaCat/provenance/app/params"
+	"github.com/MonikaCat/provenance/x/name/keeper"
+	"github.com/MonikaCat/provenance/x/name/simulation"
+	"github.com/MonikaCat/provenance/x/name/types"
 )
 
 func TestProposalContents(t *testing.T) {

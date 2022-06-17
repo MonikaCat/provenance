@@ -6,7 +6,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/rest"
 	"github.com/gorilla/mux"
 
-	"github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonikaCat/provenance/x/name/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/tx"

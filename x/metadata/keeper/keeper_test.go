@@ -8,10 +8,10 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/x/authz"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
+	simapp "github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/x/metadata/keeper"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonikaCat/provenance/x/metadata/types"
 
 	"github.com/cosmos/cosmos-sdk/baseapp"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
@@ -19,7 +19,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/suite"
 )

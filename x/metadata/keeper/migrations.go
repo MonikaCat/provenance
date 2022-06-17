@@ -6,8 +6,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	v042 "github.com/provenance-io/provenance/x/metadata/legacy/v042"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	v042 "github.com/MonikaCat/provenance/x/metadata/legacy/v042"
+	"github.com/MonikaCat/provenance/x/metadata/types"
 )
 
 // Migrator is a struct for handling in-place store migrations.

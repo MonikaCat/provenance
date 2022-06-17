@@ -4,7 +4,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonikaCat/provenance/x/metadata/types"
 )
 
 func MigrateAddresses(ctx sdk.Context, storeKey sdk.StoreKey) error {

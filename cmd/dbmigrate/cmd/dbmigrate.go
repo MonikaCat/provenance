@@ -15,9 +15,9 @@ import (
 
 	tmcli "github.com/tendermint/tendermint/libs/cli"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/cmd/dbmigrate/utils"
-	"github.com/provenance-io/provenance/cmd/provenanced/config"
+	"github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/cmd/dbmigrate/utils"
+	"github.com/MonikaCat/provenance/cmd/provenanced/config"
 )
 
 const (

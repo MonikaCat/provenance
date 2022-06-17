@@ -12,7 +12,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/rest"
 
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonikaCat/provenance/x/attribute/types"
 )
 
 func registerTxHandlers(clientCtx client.Context, r *mux.Router) {

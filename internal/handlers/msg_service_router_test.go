@@ -5,10 +5,10 @@ import (
 	"testing"
 	"time"
 
-	piosimapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/internal/handlers"
-	msgfeestypes "github.com/provenance-io/provenance/x/msgfees/types"
+	piosimapp "github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/internal/antewrapper"
+	"github.com/MonikaCat/provenance/internal/handlers"
+	msgfeestypes "github.com/MonikaCat/provenance/x/msgfees/types"
 
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"

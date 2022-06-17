@@ -1,8 +1,8 @@
 package attribute
 
 import (
-	"github.com/provenance-io/provenance/x/attribute/keeper"
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonikaCat/provenance/x/attribute/keeper"
+	"github.com/MonikaCat/provenance/x/attribute/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"

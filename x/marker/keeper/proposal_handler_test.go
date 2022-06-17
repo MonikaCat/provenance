@@ -13,12 +13,12 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	markerkeeper "github.com/provenance-io/provenance/x/marker/keeper"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	markerkeeper "github.com/MonikaCat/provenance/x/marker/keeper"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	provenance "github.com/provenance-io/provenance/app"
+	provenance "github.com/MonikaCat/provenance/app"
 )
 
 type IntegrationTestSuite struct {

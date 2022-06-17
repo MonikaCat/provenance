@@ -8,7 +8,7 @@ import (
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 // StoreKey is the store key string for authz

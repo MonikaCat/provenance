@@ -1,7 +1,7 @@
 package handlers_test
 
 import (
-	piohandlers "github.com/provenance-io/provenance/internal/handlers"
+	piohandlers "github.com/MonikaCat/provenance/internal/handlers"
 )
 
 func (suite *HandlerTestSuite) TestMsgFeeHandlerSetUp() {

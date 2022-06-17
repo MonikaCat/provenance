@@ -1,4 +1,4 @@
-module github.com/provenance-io/provenance
+module github.com/MonikaCat/provenance
 
 go 1.17
 

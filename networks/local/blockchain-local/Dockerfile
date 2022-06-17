@@ -4,7 +4,7 @@
 
 ## Build provenance for x86_64
 FROM golang:1.17-buster as build-x86_64
-WORKDIR /go/src/github.com/provenance-io/provenance
+WORKDIR /go/src/github.com/MonikaCat/provenance
 ENV GOPRIVATE=github.com/provenance-io
 RUN apt-get update && apt-get upgrade -y && apt-get install -y libleveldb-dev
 
@@ -35,7 +35,7 @@ WORKDIR /provenance
 EXPOSE 26656 26657 1317 9090
 
 # Source binaries from the build above
-COPY --from=build-x86_64 /go/src/github.com/provenance-io/provenance/vendor/github.com/CosmWasm/wasmvm/api/libwasmvm.x86_64.so /usr/local/lib/
+COPY --from=build-x86_64 /go/src/github.com/MonikaCat/provenance/vendor/github.com/CosmWasm/wasmvm/api/libwasmvm.x86_64.so /usr/local/lib/
 COPY --from=build-x86_64 /go/bin/provenanced /usr/bin/provenanced
 
 COPY networks/local/blockchain-local/entrypoint.sh /usr/bin/entrypoint.sh
@@ -52,7 +52,7 @@ CMD ["start"]
 
 ## Build provenance for ARM
 FROM golang:1.17-buster as build-arm64
-WORKDIR /go/src/github.com/provenance-io/provenance
+WORKDIR /go/src/github.com/MonikaCat/provenance
 ENV GOPRIVATE=github.com/provenance-io
 RUN apt-get update && apt-get upgrade -y && apt-get install -y libleveldb-dev
 
@@ -92,7 +92,7 @@ WORKDIR /provenance
 EXPOSE 26656 26657 1317 9090
 
 # Source binaries from the build above
-COPY --from=build-arm64 /go/src/github.com/provenance-io/provenance/vendor/github.com/CosmWasm/wasmvm/api/libwasmvm.aarch64.so /usr/local/lib/
+COPY --from=build-arm64 /go/src/github.com/MonikaCat/provenance/vendor/github.com/CosmWasm/wasmvm/api/libwasmvm.aarch64.so /usr/local/lib/
 
 COPY --from=build-arm64 /go/bin/provenanced /usr/bin/provenanced
 

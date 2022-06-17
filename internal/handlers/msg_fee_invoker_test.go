@@ -20,10 +20,10 @@ import (
 	"github.com/tendermint/tendermint/libs/log"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	piohandlers "github.com/provenance-io/provenance/internal/handlers"
-	msgfeetype "github.com/provenance-io/provenance/x/msgfees/types"
+	simapp "github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/internal/antewrapper"
+	piohandlers "github.com/MonikaCat/provenance/internal/handlers"
+	msgfeetype "github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 func (suite *HandlerTestSuite) TestMsgFeeHandlerNoFeeCharged() {

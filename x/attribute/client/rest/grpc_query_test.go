@@ -16,9 +16,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/testutil"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonikaCat/provenance/testutil"
+	attributetypes "github.com/MonikaCat/provenance/x/attribute/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 type IntegrationTestSuite struct {

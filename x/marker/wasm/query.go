@@ -6,9 +6,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/provenance-io/provenance/internal/provwasm"
-	"github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/internal/provwasm"
+	"github.com/MonikaCat/provenance/x/marker/keeper"
+	"github.com/MonikaCat/provenance/x/marker/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

@@ -14,7 +14,7 @@ import (
 	"github.com/gogo/protobuf/proto"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonikaCat/provenance/x/metadata/types"
 )
 
 // MetadataKeeperI is the internal state api for the metadata module.

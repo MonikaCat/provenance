@@ -21,10 +21,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/gov/client/cli"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/testutil"
-	namecli "github.com/provenance-io/provenance/x/name/client/cli"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonikaCat/provenance/internal/antewrapper"
+	"github.com/MonikaCat/provenance/testutil"
+	namecli "github.com/MonikaCat/provenance/x/name/client/cli"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 type IntegrationTestSuite struct {

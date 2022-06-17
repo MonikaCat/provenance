@@ -8,7 +8,7 @@ import (
 
 	"io/ioutil"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/x/marker/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"

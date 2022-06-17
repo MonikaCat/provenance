@@ -7,14 +7,14 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	"gopkg.in/yaml.v2"
 
-	"github.com/provenance-io/provenance/app"
+	"github.com/MonikaCat/provenance/app"
 
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 type KeeperTestSuite struct {

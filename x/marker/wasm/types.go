@@ -2,7 +2,7 @@
 package wasm
 
 import (
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/x/marker/types"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 )

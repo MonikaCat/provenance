@@ -10,12 +10,12 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	namekeeper "github.com/provenance-io/provenance/x/name/keeper"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	namekeeper "github.com/MonikaCat/provenance/x/name/keeper"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	provenance "github.com/provenance-io/provenance/app"
+	provenance "github.com/MonikaCat/provenance/app"
 )
 
 type IntegrationTestSuite struct {

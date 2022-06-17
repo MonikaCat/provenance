@@ -14,10 +14,10 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/attribute"
-	"github.com/provenance-io/provenance/x/attribute/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/x/attribute"
+	"github.com/MonikaCat/provenance/x/attribute/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 type HandlerTestSuite struct {

@@ -8,8 +8,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/cosmos/cosmos-sdk/x/feegrant"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/internal/antewrapper"
+	simapp "github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/internal/antewrapper"
 )
 
 // checkTx true, high min gas price(high enough so that additional fee in same denom tips it over,

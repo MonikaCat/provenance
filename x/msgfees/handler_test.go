@@ -20,10 +20,10 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/marker"
-	"github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/x/marker"
+	"github.com/MonikaCat/provenance/x/marker/keeper"
+	"github.com/MonikaCat/provenance/x/marker/types"
 )
 
 type HandlerTestSuite struct {

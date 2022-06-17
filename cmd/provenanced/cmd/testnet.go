@@ -40,9 +40,9 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/provenance-io/provenance/app"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonikaCat/provenance/app"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 const (

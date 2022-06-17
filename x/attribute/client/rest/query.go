@@ -5,7 +5,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/provenance-io/provenance/x/attribute/types"
+	"github.com/MonikaCat/provenance/x/attribute/types"
 
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/types/rest"

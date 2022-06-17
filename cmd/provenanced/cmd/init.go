@@ -25,9 +25,9 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/cosmos/go-bip39"
 
-	"github.com/provenance-io/provenance/app"
-	provconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/app"
+	provconfig "github.com/MonikaCat/provenance/cmd/provenanced/config"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
 
 	tmos "github.com/tendermint/tendermint/libs/os"
 	tmrand "github.com/tendermint/tendermint/libs/rand"

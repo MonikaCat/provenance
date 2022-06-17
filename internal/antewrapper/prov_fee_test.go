@@ -7,7 +7,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 
-	pioante "github.com/provenance-io/provenance/internal/antewrapper"
+	pioante "github.com/MonikaCat/provenance/internal/antewrapper"
 )
 
 func (suite *AnteTestSuite) TestEnsureMempoolFees() {

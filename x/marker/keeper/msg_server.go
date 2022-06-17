@@ -10,7 +10,7 @@ import (
 	sdkerrors "github.com/cosmos/cosmos-sdk/types/errors"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/x/marker/types"
 )
 
 type msgServer struct {

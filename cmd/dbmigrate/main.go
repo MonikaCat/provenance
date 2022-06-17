@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/server"
 
-	"github.com/provenance-io/provenance/cmd/dbmigrate/cmd"
+	"github.com/MonikaCat/provenance/cmd/dbmigrate/cmd"
 )
 
 func main() {

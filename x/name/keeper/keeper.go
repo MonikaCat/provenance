@@ -14,7 +14,7 @@ import (
 
 	uuid "github.com/google/uuid"
 
-	"github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonikaCat/provenance/x/name/types"
 )
 
 // Handler is a name record handler function for use with IterateRecords.

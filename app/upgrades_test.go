@@ -7,10 +7,10 @@ import (
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	attributetypes "github.com/MonikaCat/provenance/x/attribute/types"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 type IntegrationTestSuite struct {

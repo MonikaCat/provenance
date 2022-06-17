@@ -8,13 +8,13 @@ import (
 	"github.com/tendermint/tendermint/crypto/secp256k1"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	"github.com/provenance-io/provenance/app"
+	"github.com/MonikaCat/provenance/app"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/suite"
 
-	v042 "github.com/provenance-io/provenance/x/marker/legacy/v042"
-	"github.com/provenance-io/provenance/x/marker/types"
+	v042 "github.com/MonikaCat/provenance/x/marker/legacy/v042"
+	"github.com/MonikaCat/provenance/x/marker/types"
 )
 
 type MigrateTestSuite struct {

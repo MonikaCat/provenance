@@ -14,8 +14,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/codec"
 	"github.com/cosmos/cosmos-sdk/snapshots"
 
-	"github.com/provenance-io/provenance/app/params"
-	"github.com/provenance-io/provenance/cmd/provenanced/config"
+	"github.com/MonikaCat/provenance/app/params"
+	"github.com/MonikaCat/provenance/cmd/provenanced/config"
 
 	"github.com/rs/zerolog"
 	"github.com/spf13/cast"
@@ -41,7 +41,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/crisis"
 	genutilcli "github.com/cosmos/cosmos-sdk/x/genutil/client/cli"
 
-	"github.com/provenance-io/provenance/app"
+	"github.com/MonikaCat/provenance/app"
 )
 
 const (

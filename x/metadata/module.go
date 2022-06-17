@@ -21,13 +21,13 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	authkeeper "github.com/cosmos/cosmos-sdk/x/auth/keeper"
 
-	// "github.com/provenance-io/provenance/x/metadata/client/rest"
-	"github.com/provenance-io/provenance/x/metadata/client/cli"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
-	"github.com/provenance-io/provenance/x/metadata/simulation"
+	// "github.com/MonikaCat/provenance/x/metadata/client/rest"
+	"github.com/MonikaCat/provenance/x/metadata/client/cli"
+	"github.com/MonikaCat/provenance/x/metadata/keeper"
+	"github.com/MonikaCat/provenance/x/metadata/simulation"
 
-	// "github.com/provenance-io/provenance/x/metadata/simulation"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	// "github.com/MonikaCat/provenance/x/metadata/simulation"
+	"github.com/MonikaCat/provenance/x/metadata/types"
 )
 
 // ModuleName is the public name of this module

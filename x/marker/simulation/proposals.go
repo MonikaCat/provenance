@@ -8,10 +8,10 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
+	simappparams "github.com/MonikaCat/provenance/app/params"
 
-	"github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/x/marker/keeper"
+	"github.com/MonikaCat/provenance/x/marker/types"
 )
 
 const (

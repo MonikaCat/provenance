@@ -11,8 +11,8 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/types/rest"
 
-	"github.com/provenance-io/provenance/x/marker/types"
-	// metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonikaCat/provenance/x/marker/types"
+	// metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
 )
 
 const (

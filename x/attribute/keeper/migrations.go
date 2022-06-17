@@ -3,7 +3,7 @@ package keeper
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	v042 "github.com/provenance-io/provenance/x/attribute/legacy/v042"
+	v042 "github.com/MonikaCat/provenance/x/attribute/legacy/v042"
 )
 
 // Migrator is a struct for handling in-place store migrations.

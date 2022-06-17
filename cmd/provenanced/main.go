@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/server"
 
-	"github.com/provenance-io/provenance/cmd/provenanced/cmd"
+	"github.com/MonikaCat/provenance/cmd/provenanced/cmd"
 )
 
 func main() {

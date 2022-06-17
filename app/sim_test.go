@@ -48,12 +48,12 @@ import (
 	slashingtypes "github.com/cosmos/cosmos-sdk/x/slashing/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	cmdconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
-	msgfeetype "github.com/provenance-io/provenance/x/msgfees/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	cmdconfig "github.com/MonikaCat/provenance/cmd/provenanced/config"
+	attributetypes "github.com/MonikaCat/provenance/x/attribute/types"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
+	msgfeetype "github.com/MonikaCat/provenance/x/msgfees/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 const (
@@ -151,7 +151,7 @@ func TestSimple(t *testing.T) {
 }
 
 // Profile with:
-// /usr/local/go/bin/go test -benchmem -run=^$ github.com/provenance-io/provenance -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
+// /usr/local/go/bin/go test -benchmem -run=^$ github.com/MonikaCat/provenance -bench ^BenchmarkFullAppSimulation$ -Commit=true -cpuprofile cpu.out
 func TestAppImportExport(t *testing.T) {
 	// uncomment to run in ide without flags.
 	//sdksim.FlagEnabledValue = true

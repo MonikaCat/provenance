@@ -12,11 +12,11 @@ import (
 	"github.com/cosmos/ibc-go/v2/modules/core/exported"
 	ibcctmtypes "github.com/cosmos/ibc-go/v2/modules/light-clients/07-tendermint/types"
 
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
-	msgfeestypes "github.com/provenance-io/provenance/x/msgfees/types"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	attributetypes "github.com/MonikaCat/provenance/x/attribute/types"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
+	msgfeestypes "github.com/MonikaCat/provenance/x/msgfees/types"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 var (

@@ -22,7 +22,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/cosmos/cosmos-sdk/x/feegrant"
 
-	pioante "github.com/provenance-io/provenance/internal/antewrapper"
+	pioante "github.com/MonikaCat/provenance/internal/antewrapper"
 )
 
 func (suite *AnteTestSuite) TestDeductFeesNoDelegation() {

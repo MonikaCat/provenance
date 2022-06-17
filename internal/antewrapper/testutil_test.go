@@ -22,8 +22,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	simapp "github.com/provenance-io/provenance/app"
-	msgfeetype "github.com/provenance-io/provenance/x/msgfees/types"
+	simapp "github.com/MonikaCat/provenance/app"
+	msgfeetype "github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 // TestAccount represents an account used in the tests in x/auth/ante.

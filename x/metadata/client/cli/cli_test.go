@@ -26,10 +26,10 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/testutil"
-	"github.com/provenance-io/provenance/x/metadata/client/cli"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonikaCat/provenance/internal/antewrapper"
+	"github.com/MonikaCat/provenance/testutil"
+	"github.com/MonikaCat/provenance/x/metadata/client/cli"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
 )
 
 type IntegrationCLITestSuite struct {

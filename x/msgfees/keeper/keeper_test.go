@@ -10,8 +10,8 @@ import (
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 	tmtime "github.com/tendermint/tendermint/types/time"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	simapp "github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 type TestSuite struct {

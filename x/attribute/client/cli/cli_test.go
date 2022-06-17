@@ -23,12 +23,12 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/testutil"
-	"github.com/provenance-io/provenance/x/attribute/client/cli"
-	attributetypes "github.com/provenance-io/provenance/x/attribute/types"
-	namecli "github.com/provenance-io/provenance/x/name/client/cli"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	"github.com/MonikaCat/provenance/internal/antewrapper"
+	"github.com/MonikaCat/provenance/testutil"
+	"github.com/MonikaCat/provenance/x/attribute/client/cli"
+	attributetypes "github.com/MonikaCat/provenance/x/attribute/types"
+	namecli "github.com/MonikaCat/provenance/x/name/client/cli"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 type IntegrationTestSuite struct {

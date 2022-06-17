@@ -11,8 +11,8 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/stretchr/testify/require"
 
-	"github.com/provenance-io/provenance/x/msgfees/simulation"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonikaCat/provenance/x/msgfees/simulation"
+	"github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 func TestRandomizedGenState(t *testing.T) {

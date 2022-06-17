@@ -5,10 +5,10 @@ import (
 	"encoding/json"
 	"math/rand"
 
-	"github.com/provenance-io/provenance/x/msgfees/simulation"
+	"github.com/MonikaCat/provenance/x/msgfees/simulation"
 
-	"github.com/provenance-io/provenance/x/msgfees/client/cli"
-	"github.com/provenance-io/provenance/x/msgfees/keeper"
+	"github.com/MonikaCat/provenance/x/msgfees/client/cli"
+	"github.com/MonikaCat/provenance/x/msgfees/keeper"
 
 	sdkclient "github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/codec"
@@ -22,7 +22,7 @@ import (
 	"github.com/spf13/cobra"
 	abci "github.com/tendermint/tendermint/abci/types"
 
-	msgfees "github.com/provenance-io/provenance/x/msgfees/types"
+	msgfees "github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 var (

@@ -21,12 +21,12 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 	"github.com/golang/protobuf/proto"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
-	markersim "github.com/provenance-io/provenance/x/marker/simulation"
-	markertypes "github.com/provenance-io/provenance/x/marker/types"
-	namekeeper "github.com/provenance-io/provenance/x/name/keeper"
-	namesim "github.com/provenance-io/provenance/x/name/simulation"
-	nametypes "github.com/provenance-io/provenance/x/name/types"
+	simappparams "github.com/MonikaCat/provenance/app/params"
+	markersim "github.com/MonikaCat/provenance/x/marker/simulation"
+	markertypes "github.com/MonikaCat/provenance/x/marker/types"
+	namekeeper "github.com/MonikaCat/provenance/x/name/keeper"
+	namesim "github.com/MonikaCat/provenance/x/name/simulation"
+	nametypes "github.com/MonikaCat/provenance/x/name/types"
 )
 
 const (

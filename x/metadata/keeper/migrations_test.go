@@ -13,10 +13,10 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 
-	simapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/x/metadata/keeper"
-	v042 "github.com/provenance-io/provenance/x/metadata/legacy/v042"
-	"github.com/provenance-io/provenance/x/metadata/types"
+	simapp "github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/x/metadata/keeper"
+	v042 "github.com/MonikaCat/provenance/x/metadata/legacy/v042"
+	"github.com/MonikaCat/provenance/x/metadata/types"
 
 	"github.com/cosmos/cosmos-sdk/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"

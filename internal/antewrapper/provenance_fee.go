@@ -8,7 +8,7 @@ import (
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
 	"github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	msgfeestypes "github.com/provenance-io/provenance/x/msgfees/types"
+	msgfeestypes "github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 // ProvenanceDeductFeeDecorator deducts fees from the first signer of the tx

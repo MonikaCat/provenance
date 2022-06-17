@@ -4,17 +4,17 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/provenance-io/provenance/x/msgfees/keeper"
-	"github.com/provenance-io/provenance/x/msgfees/simulation"
-	"github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonikaCat/provenance/x/msgfees/keeper"
+	"github.com/MonikaCat/provenance/x/msgfees/simulation"
+	"github.com/MonikaCat/provenance/x/msgfees/types"
 
 	"github.com/stretchr/testify/require"
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	simapp "github.com/provenance-io/provenance/app"
-	simappparams "github.com/provenance-io/provenance/app/params"
+	simapp "github.com/MonikaCat/provenance/app"
+	simappparams "github.com/MonikaCat/provenance/app/params"
 )
 
 func TestProposalContents(t *testing.T) {

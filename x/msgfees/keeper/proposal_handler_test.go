@@ -11,11 +11,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
-	msgfeeskeeper "github.com/provenance-io/provenance/x/msgfees/keeper"
-	msgfeestypes "github.com/provenance-io/provenance/x/msgfees/types"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
+	msgfeeskeeper "github.com/MonikaCat/provenance/x/msgfees/keeper"
+	msgfeestypes "github.com/MonikaCat/provenance/x/msgfees/types"
 
-	provenance "github.com/provenance-io/provenance/app"
+	provenance "github.com/MonikaCat/provenance/app"
 )
 
 type IntegrationTestSuite struct {

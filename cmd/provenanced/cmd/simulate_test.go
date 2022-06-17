@@ -16,10 +16,10 @@ import (
 
 	"github.com/stretchr/testify/suite"
 
-	"github.com/provenance-io/provenance/cmd/provenanced/cmd"
-	"github.com/provenance-io/provenance/internal/antewrapper"
-	"github.com/provenance-io/provenance/testutil"
-	msgfeestypes "github.com/provenance-io/provenance/x/msgfees/types"
+	"github.com/MonikaCat/provenance/cmd/provenanced/cmd"
+	"github.com/MonikaCat/provenance/internal/antewrapper"
+	"github.com/MonikaCat/provenance/testutil"
+	msgfeestypes "github.com/MonikaCat/provenance/x/msgfees/types"
 )
 
 type SimulateTestSuite struct {

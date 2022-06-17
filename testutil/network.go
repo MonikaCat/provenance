@@ -18,8 +18,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	provenanceapp "github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/app/params"
+	provenanceapp "github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/app/params"
 )
 
 // NewAppConstructor returns a new provenanceapp AppConstructor

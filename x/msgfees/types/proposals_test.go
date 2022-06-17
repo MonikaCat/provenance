@@ -5,7 +5,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
 
 	"github.com/stretchr/testify/suite"
 )

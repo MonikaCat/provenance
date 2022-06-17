@@ -10,7 +10,7 @@ import (
 	"github.com/google/uuid"
 	yaml "gopkg.in/yaml.v2"
 
-	"github.com/provenance-io/provenance/x/metadata/types/p8e"
+	"github.com/MonikaCat/provenance/x/metadata/types/p8e"
 )
 
 const (

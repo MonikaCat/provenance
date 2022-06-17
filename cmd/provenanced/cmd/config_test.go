@@ -20,9 +20,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	"github.com/cosmos/cosmos-sdk/simapp"
 
-	"github.com/provenance-io/provenance/app"
-	"github.com/provenance-io/provenance/cmd/provenanced/cmd"
-	provconfig "github.com/provenance-io/provenance/cmd/provenanced/config"
+	"github.com/MonikaCat/provenance/app"
+	"github.com/MonikaCat/provenance/cmd/provenanced/cmd"
+	provconfig "github.com/MonikaCat/provenance/cmd/provenanced/config"
 
 	tmconfig "github.com/tendermint/tendermint/config"
 	"github.com/tendermint/tendermint/libs/log"

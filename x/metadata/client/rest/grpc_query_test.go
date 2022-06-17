@@ -20,9 +20,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/query"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 
-	"github.com/provenance-io/provenance/testutil"
-	"github.com/provenance-io/provenance/x/metadata/types"
-	metadatatypes "github.com/provenance-io/provenance/x/metadata/types"
+	"github.com/MonikaCat/provenance/testutil"
+	"github.com/MonikaCat/provenance/x/metadata/types"
+	metadatatypes "github.com/MonikaCat/provenance/x/metadata/types"
 
 	grpctypes "github.com/cosmos/cosmos-sdk/types/grpc"
 )

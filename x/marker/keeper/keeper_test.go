@@ -6,7 +6,7 @@ import (
 
 	tmproto "github.com/tendermint/tendermint/proto/tendermint/types"
 
-	simapp "github.com/provenance-io/provenance/app"
+	simapp "github.com/MonikaCat/provenance/app"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
@@ -15,8 +15,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/crypto/keys/secp256k1"
 	"github.com/stretchr/testify/require"
 
-	markerkeeper "github.com/provenance-io/provenance/x/marker/keeper"
-	"github.com/provenance-io/provenance/x/marker/types"
+	markerkeeper "github.com/MonikaCat/provenance/x/marker/keeper"
+	"github.com/MonikaCat/provenance/x/marker/types"
 )
 
 func TestAccountMapperGetSet(t *testing.T) {

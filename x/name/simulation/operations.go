@@ -13,10 +13,10 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	simappparams "github.com/provenance-io/provenance/app/params"
+	simappparams "github.com/MonikaCat/provenance/app/params"
 
-	keeper "github.com/provenance-io/provenance/x/name/keeper"
-	types "github.com/provenance-io/provenance/x/name/types"
+	keeper "github.com/MonikaCat/provenance/x/name/keeper"
+	types "github.com/MonikaCat/provenance/x/name/types"
 )
 
 // Simulation operation weights constants

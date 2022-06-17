@@ -12,8 +12,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/module"
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 
-	"github.com/provenance-io/provenance/x/marker/simulation"
-	"github.com/provenance-io/provenance/x/marker/types"
+	"github.com/MonikaCat/provenance/x/marker/simulation"
+	"github.com/MonikaCat/provenance/x/marker/types"
 )
 
 // TestRandomizedGenState tests the normal scenario of applying RandomizedGenState.

@@ -7,7 +7,7 @@ import (
 	"github.com/spf13/cast"
 	"github.com/stretchr/testify/require"
 
-	"github.com/provenance-io/provenance/app"
+	"github.com/MonikaCat/provenance/app"
 )
 
 func TestIAVLConfig(t *testing.T) {

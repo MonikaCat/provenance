@@ -15,7 +15,7 @@ import (
 	"github.com/stretchr/testify/require"
 	"github.com/tendermint/tendermint/libs/log"
 
-	"github.com/provenance-io/provenance/app"
+	"github.com/MonikaCat/provenance/app"
 )
 
 func Test_TestnetCmd(t *testing.T) {
